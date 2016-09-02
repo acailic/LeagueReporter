@@ -54,13 +54,14 @@ THEME : BLUE
  }
   ```
  Crest url gets logo online.
+
  Links: 
  
  http://www.jokecamp.com/blog/guide-to-football-and-soccer-data-and-apis/#footballdata
  
  
  Used libraries:
- Android Logger
- (Universal Image Loader) [https://github.com/nostra13/Android-Universal-Image-Loader]
- and Icons Online.
+ - Android Logger
+ - (Universal Image Loader) [https://github.com/nostra13/Android-Universal-Image-Loader]
+ - and Icons Online.
  
