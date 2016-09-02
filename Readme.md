@@ -62,6 +62,6 @@ THEME : BLUE
  
  Used libraries:
  - Android Logger
- - (Universal Image Loader) [https://github.com/nostra13/Android-Universal-Image-Loader]
+ - [Universal Image Loader] (https://github.com/nostra13/Android-Universal-Image-Loader)
  - and Icons Online.
  
