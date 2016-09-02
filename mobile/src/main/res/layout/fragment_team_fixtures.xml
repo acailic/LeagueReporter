@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="@dimen/fixtures_list_margin"
+		android:background="@drawable/fixtures_list_background"
+		android:paddingBottom="@dimen/fixtures_list_vertical_padding"
+		android:paddingTop="@dimen/fixtures_list_vertical_padding"/>
+
+	<include layout="@layout/content_progress"/>
+
+	<include layout="@layout/content_empty"/>
+
+	<include layout="@layout/content_error"/>
+
+</LinearLayout>

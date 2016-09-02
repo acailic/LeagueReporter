@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:orientation="horizontal"
+	android:paddingBottom="48dp"
+	android:paddingTop="16dp">
+
+	<TextView
+		android:id="@+id/played_games"
+		style="@style/AppTheme.ScoresSortItem"
+		android:text="@string/scores_head_played_games"
+		android:textColor="@color/scores_dialog_item_text"
+		android:textSize="@dimen/scores_dialog_sort_item_text"/>
+
+	<TextView
+		android:id="@+id/goals"
+		style="@style/AppTheme.ScoresSortItem"
+		android:text="@string/scores_head_goals"
+		android:textColor="@color/scores_dialog_item_text"
+		android:textSize="@dimen/scores_dialog_sort_item_text"/>
+
+	<ImageView
+		android:id="@+id/refresh"
+		style="@style/AppTheme.ScoresSortItem"
+		android:padding="14dp"
+		android:src="@drawable/ic_refresh"/>
+
+</LinearLayout>

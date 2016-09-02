@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/leagues_list_item_height"
+	android:background="@drawable/leagues_list_item_background"
+	android:clickable="true"
+	android:paddingLeft="@dimen/horizontal_padding"
+	android:paddingRight="@dimen/horizontal_padding">
+
+	<TextView
+		android:id="@+id/name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:textColor="@color/leagues_list_item_name"
+		android:textSize="@dimen/leagues_list_item_text_size"
+		tools:text="League name"/>
+
+	<TextView
+		android:id="@+id/matchday"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|end"
+		android:textColor="@color/leagues_list_item_matchday"
+		android:textSize="@dimen/leagues_list_item_text_size"
+		tools:text="23/30"/>
+
+</FrameLayout>

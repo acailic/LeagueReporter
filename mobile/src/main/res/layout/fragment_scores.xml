@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:clickable="true"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingBottom="4dp"
+		android:paddingLeft="8dp"
+		android:paddingRight="8dp"
+		android:paddingTop="4dp">
+
+		<TextView
+			android:layout_width="@dimen/scores_table_rank_width"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:text="@string/scores_head_number"
+			android:textColor="@color/scores_list_item_text"
+			android:textSize="@dimen/scores_table_text_size"/>
+
+		<ImageView
+			android:layout_width="@dimen/scores_table_icon_size"
+			android:layout_height="@dimen/scores_table_icon_size"
+			android:src="@mipmap/ic_launcher"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:text="@string/scores_head_team"
+			android:textColor="@color/scores_list_item_name"
+			android:textSize="@dimen/scores_table_text_size"/>
+
+		<TextView
+			android:layout_width="@dimen/scores_table_played_games_width"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="@string/scores_head_played_games"
+			android:textColor="@color/scores_list_item_text"
+			android:textSize="@dimen/scores_table_text_size"/>
+
+		<TextView
+			android:layout_width="@dimen/scores_table_goals_width"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="@string/scores_head_goals"
+			android:textColor="@color/scores_list_item_text"
+			android:textSize="@dimen/scores_table_text_size"/>
+
+		<TextView
+			android:layout_width="@dimen/scores_table_against_difference_width"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="@string/scores_head_against_difference"
+			android:textColor="@color/scores_list_item_text"
+			android:textSize="@dimen/scores_table_text_size"/>
+
+		<TextView
+			android:layout_width="@dimen/scores_table_points_width"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="@string/scores_head_points"
+			android:textColor="@color/scores_list_item_points"
+			android:textSize="@dimen/scores_table_text_size"/>
+
+	</LinearLayout>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:background="@color/scores_separator_background"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<include layout="@layout/content_progress"/>
+
+	<include layout="@layout/content_empty"/>
+
+	<include layout="@layout/content_error"/>
+
+</LinearLayout>

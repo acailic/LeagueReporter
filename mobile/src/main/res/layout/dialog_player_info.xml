@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="20dp">
+
+	<TextView
+		android:id="@+id/jersey"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:background="@drawable/im_jersey"
+		android:gravity="center"
+		android:textColor="@color/players_list_item_jersey"
+		android:textSize="20sp"
+		tools:text="42"/>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_marginStart="16dp"
+		android:layout_toEndOf="@+id/jersey"
+		android:layout_toRightOf="@+id/jersey"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			tools:text="Player name"/>
+
+		<TextView
+			android:id="@+id/date_of_birth"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="16dp"
+			android:textSize="14sp"
+			tools:text="12.12.1884"/>
+
+		<TextView
+			android:id="@+id/nationality"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			tools:text="Nationality: Country"/>
+
+		<TextView
+			android:id="@+id/position"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			tools:text="Position: String"/>
+
+		<TextView
+			android:id="@+id/market_value"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:visibility="gone"
+			tools:text="Market value: 100,000$"
+			tools:visibility="visible"/>
+
+		<TextView
+			android:id="@+id/contract_until"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:visibility="gone"
+			tools:text="Contract until: 12.12.2017"
+			tools:visibility="visible"/>
+
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/header"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/fixtures_list_item_header_background"
+		android:clickable="true"
+		android:paddingBottom="4dp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:paddingTop="4dp"
+		android:textColor="@color/fixtures_list_item_header"
+		android:textSize="12sp"
+		tools:text="Header"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/fixtures_list_item_height"
+		android:background="@drawable/fixtures_list_item"
+		android:clickable="true">
+
+		<FrameLayout
+			android:id="@+id/result_layout"
+			android:layout_width="60dp"
+			android:layout_height="match_parent"
+			android:layout_centerHorizontal="true">
+
+			<TextView
+				android:id="@+id/date"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_gravity="center_vertical"
+				android:gravity="center"
+				android:textColor="@color/fixtures_list_item_result"
+				android:visibility="visible"
+				tools:text="21:30"/>
+
+			<ImageView
+				android:id="@+id/bell"
+				android:layout_width="12dp"
+				android:layout_height="12dp"
+				android:layout_gravity="end"
+				android:layout_marginEnd="4dp"
+				android:layout_marginRight="4dp"
+				android:layout_marginTop="4dp"
+				android:src="@drawable/ic_bell"
+				android:visibility="visible"/>
+
+			<TextView
+				android:id="@+id/result"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:background="@drawable/fixtures_list_item_result_background"
+				android:gravity="center"
+				android:paddingBottom="4dp"
+				android:paddingLeft="8dp"
+				android:paddingRight="8dp"
+				android:paddingTop="4dp"
+				android:textColor="@color/fixtures_list_item_result"
+				android:visibility="gone"
+				tools:text="1 : 2"/>
+
+		</FrameLayout>
+
+		<TextView
+			android:id="@+id/home_team_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toLeftOf="@id/result_layout"
+			android:layout_toStartOf="@id/result_layout"
+			android:paddingLeft="@dimen/fixtures_list_item_horizontal_padding"
+			android:paddingRight="@dimen/fixtures_list_item_horizontal_padding"
+			android:textColor="@color/fixtures_list_item_name"
+			android:textSize="@dimen/fixtures_list_item_team_size"
+			tools:text="Home team name"/>
+
+
+		<TextView
+			android:id="@+id/away_team_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_toEndOf="@+id/result_layout"
+			android:layout_toRightOf="@+id/result_layout"
+			android:gravity="end"
+			android:paddingLeft="@dimen/fixtures_list_item_horizontal_padding"
+			android:paddingRight="@dimen/fixtures_list_item_horizontal_padding"
+			android:textColor="@color/fixtures_list_item_name"
+			android:textSize="@dimen/fixtures_list_item_team_size"
+			tools:text="Away team name"/>
+
+	</RelativeLayout>
+
+</LinearLayout>

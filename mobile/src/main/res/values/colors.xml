@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="accent1">#FFD740</color>
+	<color name="accent">#FF6E40</color>
+	<color name="alert_content">#BDBDBD</color>
+	<color name="primary">#ff33b5e5</color>
+	<color name="primary_dark">#ff0099cc</color>
+	<color name="text_primary">#000</color>
+	<color name="text_secondary">#303030</color>
+	<color name="toolbar_primary">#FFF</color>
+	<color name="toolbar_secondary">#C8E6C9</color>
+
+	<color name="leagues_list_item_name">#000</color>
+	<color name="leagues_list_item_matchday">#555</color>
+	<color name="leagues_list_item_background">#FFF</color>
+	<color name="leagues_list_item_background_pressed">#FAFAFA</color>
+
+	<color name="fixtures_matchday">#000</color>
+	<color name="fixtures_matchday_background_pressed">#EEE</color>
+	<color name="fixtures_list_background">@color/leagues_list_item_background</color>
+	<color name="fixtures_list_background_pressed">@color/leagues_list_item_background_pressed</color>
+	<color name="fixtures_list_item_header">#000</color>
+	<color name="fixtures_list_item_header_background">#F5F5F5</color>
+	<color name="fixtures_list_item_name">#555</color>
+	<color name="fixtures_list_item_win_name">#66BB6A</color>
+	<color name="fixtures_list_item_lose_name">#EF5350</color>
+	<color name="fixtures_list_item_draw_name">#29B6F6</color>
+	<color name="fixtures_list_item_result">#000</color>
+	<color name="fixtures_list_item_result_background">#C8E6C9</color>
+	<color name="fixtures_list_item_result_scheduled_background">#B3E5FC</color>
+
+	<color name="fixture_info_teams_text">#000</color>
+	<color name="fixture_info_teams_background">#FFF</color>
+	<color name="fixture_info_result_text">#FFF</color>
+	<color name="fixture_info_result_background">@color/primary</color>
+	<color name="fixture_info_head2head_text">@color/fixtures_list_item_header</color>
+
+	<color name="scores_separator_background">#EEE</color>
+	<color name="scores_list_item_text">#888</color>
+	<color name="scores_list_item_name">#444</color>
+	<color name="scores_list_item_points">#000</color>
+	<color name="scores_dialog_item_text">@color/toolbar_primary</color>
+	<color name="scores_dialog_item_background">@color/primary</color>
+	<color name="scores_dialog_item_background_pressed">@color/primary_dark</color>
+
+	<color name="players_list_item_name">#454545</color>
+	<color name="players_list_item_jersey">#5d5d5d</color>
+
+	<color name="about_text">#555</color>
+
+	<color name="button_text">@color/primary</color>
+	<color name="button_pressed">#999</color>
+
+	<color name="intro_title">#FFF</color>
+	<color name="intro_subtitle">#E0E0E0</color>
+	<color name="intro_button">#FFF</color>
+	<color name="intro_indicator_selected">#FFF</color>
+	<color name="intro_indicator_unselected">#BDBDBD</color>
+	<color name="intro_page1">#607D8B</color>
+	<color name="intro_page2">#1565C0</color>
+	<color name="intro_page3">@color/primary_dark</color>
+
+	<color name="window_background">#F5F5F5</color>
+	<color name="window_background_pressed">#E0E0E0</color>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minHeight="100dp"
+	android:minWidth="280dp">
+
+	<LinearLayout
+		android:id="@+id/content"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="24dp">
+
+			<ImageView
+				android:id="@+id/icon"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:src="@drawable/ic_player"/>
+
+			<TextView
+				android:id="@+id/name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_toEndOf="@+id/icon"
+				android:layout_toRightOf="@+id/icon"
+				android:paddingLeft="16dp"
+				android:textColor="#444"
+				android:textSize="18sp"
+				tools:text="Name"/>
+
+			<TextView
+				android:id="@+id/short_name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/name"
+				android:layout_alignStart="@+id/name"
+				android:layout_below="@+id/name"
+				android:layout_toEndOf="@+id/icon"
+				android:layout_toRightOf="@+id/icon"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:textColor="#888"
+				android:textSize="16sp"
+				tools:text="Short name"/>
+
+			<TextView
+				android:id="@+id/squad_market_value"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/short_name"
+				android:layout_toEndOf="@+id/icon"
+				android:layout_toRightOf="@+id/icon"
+				android:gravity="end"
+				android:paddingLeft="16dp"
+				android:paddingRight="16dp"
+				android:textColor="#AAA"
+				android:textSize="12sp"
+				tools:text="100,100,900 $"/>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|end"
+			android:orientation="horizontal"
+			android:padding="8dp">
+
+			<Button
+				android:id="@+id/button_fixtures"
+				style="@style/AppTheme.Button"
+				android:text="@string/team_button_fixtures"/>
+
+			<Button
+				android:id="@+id/button_players"
+				style="@style/AppTheme.Button"
+				android:text="@string/team_button_players"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<include layout="@layout/content_progress"/>
+
+	<include layout="@layout/content_empty"/>
+
+	<include layout="@layout/content_error"/>
+
+</FrameLayout>

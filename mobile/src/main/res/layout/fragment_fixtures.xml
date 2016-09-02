@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="8dp">
+
+		<TextView
+			android:id="@+id/matchday"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/fixtures_matchday_background"
+			android:gravity="center_vertical"
+			android:padding="8dp"
+			android:textColor="@color/fixtures_matchday"
+			android:textSize="18sp"
+			tools:text="Matchday 32"/>
+
+		<ImageView
+			android:layout_width="32dp"
+			android:layout_height="32dp"
+			android:layout_gravity="end|center_vertical"
+			android:src="@drawable/ic_menu_down"/>
+
+	</FrameLayout>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recycler_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="@dimen/fixtures_list_margin"
+		android:background="@drawable/fixtures_list_background"
+		android:paddingBottom="@dimen/fixtures_list_vertical_padding"
+		android:paddingTop="@dimen/fixtures_list_vertical_padding"/>
+
+	<include layout="@layout/content_progress"/>
+
+	<include layout="@layout/content_empty"/>
+
+	<include layout="@layout/content_error"/>
+
+</LinearLayout>

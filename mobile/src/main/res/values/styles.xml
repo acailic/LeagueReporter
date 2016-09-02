@@ -1,0 +1,53 @@
+<resources>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@android:color/holo_blue_light</item>
+		<item name="android:textColorPrimary">@color/text_primary</item>
+		<item name="android:textColorSecondary">@color/text_secondary</item>
+		<item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+		<item name="colorAccent">@color/accent</item>
+		<item name="android:windowBackground">@color/window_background</item>
+	</style>
+
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppTheme.Toolbar">
+		<item name="android:textColorPrimary">@color/toolbar_primary</item>
+		<item name="android:textColorSecondary">@color/toolbar_secondary</item>
+		<item name="colorControlNormal">@color/toolbar_primary</item>
+	</style>
+
+	<style name="AppTheme.PopupTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+	<style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+		<item name="colorAccent">@color/accent</item>
+		<item name="android:textColorPrimary">@color/primary</item>
+		<item name="android:background">@color/window_background</item>
+	</style>
+
+	<style name="AppTheme.ScoresSortItem">
+		<item name="android:layout_width">@dimen/scores_dialog_sort_item_size</item>
+		<item name="android:layout_height">@dimen/scores_dialog_sort_item_size</item>
+		<item name="android:layout_marginLeft">8dp</item>
+		<item name="android:layout_marginRight">8dp</item>
+		<item name="android:background">@drawable/dialog_scores_item_background</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="AppTheme.Button" parent="Widget.AppCompat.Button.Borderless">
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:layout_marginLeft">8dp</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">36dp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:minWidth">88dp</item>
+		<item name="android:textColor">@color/button_text</item>
+		<item name="android:background">@drawable/button_background</item>
+	</style>
+
+</resources>
