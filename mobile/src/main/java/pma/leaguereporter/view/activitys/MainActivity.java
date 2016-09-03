@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity implements EventListener {
 				break;
 
 			case Const.EVENT_CODE_SHOW_SETTINGS:
-				 startActivity(new Intent(this, SettingsActivity.class));
+				 startActivity(new Intent(this, AppPreferenceActivity.class));
 
 				break;
 

@@ -29,31 +29,25 @@
             android:label="@string/app_name">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
         <activity
             android:name="pma.leaguereporter.view.activitys.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
 
+        <activity
+            android:name="pma.leaguereporter.view.activitys.AppPreferenceActivity"
+            android:label="@string/app_name">
+        </activity>
         <receiver android:name="pma.leaguereporter.model.receivers.NotificationBroadcastReceiver">
             <intent-filter>
                 <action android:name=".model.receivers.NotificationBroadcastReceiver" />
             </intent-filter>
         </receiver>
 
-        <activity
-            android:name="pma.leaguereporter.view.activitys.SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName="pma.leaguereporter.view.activitys.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="pma.leaguereporter.view.activitys.MainActivity" />
-        </activity>
     </application>
 
 </manifest>

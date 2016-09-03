@@ -8,7 +8,7 @@ import android.os.SystemClock;
 import android.preference.PreferenceManager;
 
 import pma.leaguereporter.R;
-
+import pma.leaguereporter.R;
 /**
  * Created by a.ilic on 8/25/2016.
  */

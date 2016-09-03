@@ -5,6 +5,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.support.annotation.Nullable;
 
+import java.util.ArrayList;
+
 import pma.leaguereporter.model.SQLHelper;
 import pma.leaguereporter.model.objects.Fixture;
 import pma.leaguereporter.model.objects.Head2head;
@@ -13,8 +15,6 @@ import pma.leaguereporter.model.objects.Player;
 import pma.leaguereporter.model.objects.Scores;
 import pma.leaguereporter.model.objects.Team;
 import pma.leaguereporter.util.DBConst;
-
-import java.util.ArrayList;
 
 public class DBManager {
 
@@ -45,6 +45,14 @@ public class DBManager {
 
     @Nullable
     public static ArrayList<Fixture> getFixturesListUpcoming(int soccerseasonId, int teamId) {
+
+        /*
+
+        ISSUES: TODO: list upcoming mathes don't working fine
+         problem: datum je numeric i imam problema sa ovim upiitom
+
+         @a.ilic
+         */
         Cursor cursor = sSQLHelper.query(
                 DBConst.TABLE_FIXTURES,
                 null,
