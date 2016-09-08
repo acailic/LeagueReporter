@@ -45,6 +45,14 @@
 		android:layout_alignParentEnd="true"
 		android:layout_height="wrap_content"/>
 
+	<ListView
+		android:id="@+id/list_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/links"
+		android:paddingBottom="8dp"
+		android:paddingTop="8dp"/>
+
 
 	<LinearLayout
 		android:id="@+id/version_layout"
