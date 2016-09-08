@@ -35,7 +35,7 @@
     <string name="intro_next">Sledece</string>
     <string name="context_fixture_notification">Obavestenje</string>
     <string name="context_fixture_head">Izaberi akciju</string>
-    <string name="context_head_select_matchday">Izaberi danasnju utakmicu</string>
+    <string name="context_head_select_matchday">Kolo</string>
     <string name="about_entry">Zdravo. Ova aplikacija koristi <b>Open football API</b></string>
     <string name="about_links">Link do Linkedin profila. Aleksandar Ilic</string>
     <string name="about_title">Info</string>
