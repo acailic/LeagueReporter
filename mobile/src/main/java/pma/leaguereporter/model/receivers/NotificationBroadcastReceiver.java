@@ -73,6 +73,12 @@ public class NotificationBroadcastReceiver extends BroadcastReceiver {
 						context, Const.REQUEST_CODE_NOTIFIED_FIXTURE, intent,
 						PendingIntent.FLAG_UPDATE_CURRENT
 				);
+
+				/*
+				// magic number=
+				// millisec * sec * min * hours
+				// 1000 * 60 * 60 * 24 = 86400000
+				 */
 				setAlarm(
 						context,
 						fixture.getDate() - 1000 * 60 * 60 + Rand.next(0, 1000),
