@@ -5,14 +5,13 @@
     <string name="snackbar_result_null_action">Refresh</string>
     <string name="error_content_text">Something wrong</string>
     <string name="empty_content_text">Nothing to show</string>
-    <string name="pref_splash">pref_splash</string>
-    <string name="intro_skip">Skip</string>
+    <string name="pref_splash" translatable="false">pref_splash</string>
     <string name="intro_next">Next</string>
-    <string name="intro_start">Start</string>
+    <string name="intro_start" translatable="false">Start</string>
 
     <string name="leagues_title">Leagues</string>
-    <string name="leagues_subtitle">%1$d - %2$d</string>
-    <string name="leagues_list_item_matchday">%1$d/%2$d</string>
+    <string name="leagues_subtitle" translatable="false">%1$d - %2$d</string>
+    <string name="leagues_list_item_matchday" translatable="false">%1$d/%2$d</string>
 
     <string name="fixtures_matchday">Matchday %1$d</string>
     <string name="fixtures_list_item_result">%1$d : %2$d</string>
@@ -20,18 +19,18 @@
     <string name="fixtures_list_item_header_tomorrow">Tomorrow</string>
 
     <string name="fixture_info_title">Details</string>
-    <string name="fixture_info_result">%1$d : %2$d</string>
-    <string name="fixture_info_empty_result">- : -</string>
+    <string name="fixture_info_result" translatable="false">%1$d : %2$d</string>
+    <string name="fixture_info_empty_result" translatable="false">- : -</string>
     <string name="fixture_info_head2head">Head2head</string>
-    <string name="fixture_info_winrait">%1$d%% / %2$d%%</string>
+    <string name="fixture_info_winrait" translatable="false">%1$d%% / %2$d%%</string>
 
-    <string name="scores_against_difference">%1$d/%2$d</string>
+    <string name="scores_against_difference" translatable="false">%1$d/%2$d</string>
     <string name="scores_head_team">Team</string>
-    <string name="scores_head_number">№</string>
-    <string name="scores_head_played_games">PG</string>
-    <string name="scores_head_goals">G</string>
-    <string name="scores_head_against_difference">A/D</string>
-    <string name="scores_head_points">P</string>
+    <string name="scores_head_number" translatable="false">№</string>
+    <string name="scores_head_played_games" translatable="false">PG</string>
+    <string name="scores_head_goals" translatable="false">G</string>
+    <string name="scores_head_against_difference" translatable="false">A/D</string>
+    <string name="scores_head_points" translatable="false">P</string>
     <string name="scores_sort_dialog_title">Categories</string>
 
     <string name="team_button_fixtures">Upcoming matches</string>
@@ -68,104 +67,43 @@
     <string name="notification_fixture_title">Begin at %1$s</string>
     <string name="notification_fixture_text">%1$s vs %2$s</string>
 
-    <string name="share_fixture_home_win">(%1$s) \"%2$s [%4$d:%5$d] %3$s\" - %2$s win</string>
-    <string name="share_fixture_away_win">(%1$s) \"%2$s [%4$d:%5$d] %3$s\" - %3$s win</string>
-    <string name="share_fixture_draw">(%1$s) \"%2$s [%4$d:%5$d] %3$s\" - draw</string>
-    <string name="share_fixture_timed">\"%2$s vs %3$s\" begin at %1$s</string>
+    <string name="share_fixture_home_win" translatable="false">(%1$s) \"%2$s [%4$d:%5$d] %3$s\" - %2$s win</string>
+    <string name="share_fixture_away_win" translatable="false">(%1$s) \"%2$s [%4$d:%5$d] %3$s\" - %3$s win</string>
+    <string name="share_fixture_draw" translatable="false">(%1$s) \"%2$s [%4$d:%5$d] %3$s\" - draw</string>
+    <string name="share_fixture_timed" translatable="false">\"%2$s vs %3$s\" begin at %1$s</string>
 
-    <string name="share_fixtures_header">### %1$s\n## Matchday: %2$d</string>
-    <string name="share_fixtures_separator_today"># Today</string>
-    <string name="share_fixtures_separator_tomorrow"># Tomorrow</string>
-    <string name="share_fixtures_separator_with_date"># %1$s</string>
-    <string name="share_fixtures_finished">%1$s [%3$d:%4$d] %2$s</string>
-    <string name="share_fixtures_timed">%1$s (%3$s) %2$s</string>
+    <string name="share_fixtures_header" translatable="false">### %1$s\n## Matchday: %2$d</string>
+    <string name="share_fixtures_separator_today" translatable="false"># Today</string>
+    <string name="share_fixtures_separator_tomorrow" translatable="false"># Tomorrow</string>
+    <string name="share_fixtures_separator_with_date" translatable="false"># %1$s</string>
+    <string name="share_fixtures_finished" translatable="false">%1$s [%3$d:%4$d] %2$s</string>
+    <string name="share_fixtures_timed" translatable="false">%1$s (%3$s) %2$s</string>
 
-    <string name="share_scores_header">### %1$s (%2$d)\nRank|Points|Team</string>
-    <string name="share_scores_item">%1$d | %2$d | %3$s</string>
+    <string name="share_scores_header" translatable="false">### %1$s (%2$d)\nRank|Points|Team</string>
+    <string name="share_scores_item" translatable="false">%1$d | %2$d | %3$s</string>
 
-    <string name="share_players_header">### %1$s (%2$s)\n## Players</string>
-    <string name="share_players_item">%1$d | %2$s</string>
+    <string name="share_players_header" translatable="false">### %1$s (%2$s)\n## Players</string>
+    <string name="share_players_item" translatable="false">%1$d | %2$s</string>
 
-    <string name="share_team_fixtures_header">### %1$s (%2$s)\n## Upcoming</string>
-    <string name="share_team_fixtures_item">%1$s (%3$s) %2$s</string>
+    <string name="share_team_fixtures_header" translatable="false">### %1$s (%2$s)\n## Upcoming</string>
+    <string name="share_team_fixtures_item" translatable="false">%1$s (%3$s) %2$s</string>
 
     <!-- Tutorial -->
-    <string name="intro_page1_title">On pulse</string>
-    <string name="intro_page1_subtitle">Get information for upcoming events</string>
-    <string name="intro_page2_title">Sharing</string>
-    <string name="intro_page2_subtitle">Share all with friends</string>
-    <string name="intro_page3_title">Get started!</string>
+
 
     <!-- CONST resources -->
-    <string name="api_key">16c130d43d5543bfac04ffef8b3da068</string>
-    <string name="api_response_control_mini">minified</string>
-    <string name="api_response_control_full">full</string>
+    <string name="api_key" translatable="false">16c130d43d5543bfac04ffef8b3da068</string>
+    <string name="api_response_control_mini" translatable="false">minified</string>
+    <string name="api_response_control_full" translatable="false">full</string>
 
-    <string name="banner_ad_unit_id">s</string>
 
     <string name="about_linkedin">LinkedIn</string>
 
 
-    <string name="link_football_api">http://api.football-data.org</string>
-    <string name="link_linkedin">https://rs.linkedin.com/in/aleksandar-ilić-a9b30b87</string>
+    <string name="link_football_api" translatable="false">http://api.football-data.org</string>
+    <string name="link_linkedin" translatable="false">https://rs.linkedin.com/in/aleksandar-ilić-a9b30b87</string>
 
     <string name="title_activity_settings">Settings</string>
 
-    <!-- Strings related to Settings -->
 
-    <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
-
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
-
-    <string name="pref_title_system_sync_settings">System sync settings</string>
-
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
-
-    <string name="pref_title_new_message_notifications">New message notifications</string>
-
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
-
-    <string name="pref_title_vibrate">Vibrate</string>
 </resources>

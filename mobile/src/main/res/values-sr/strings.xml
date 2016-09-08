@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Reporter liga</string>
+    <string name="about_linkedin">Linkedin</string>
+    <string name="about_version">Build</string>
+    <string name="snackbar_result_null_text">Server ne reaguje.</string>
+    <string name="team_button_players">Igraci</string>
+    <string name="team_button_fixtures">Predstojece utakmice</string>
+    <string name="title_activity_settings">Podesavanja</string>
+    <string name="snackbar_result_null_action">Osvezi</string>
+    <string name="scores_sort_dialog_title">Kategorije</string>
+    <string name="scores_head_team">Tim</string>
+    <string name="players_title">Igraci</string>
+    <string name="player_info_position"><b>Pozicija:</b> %1$s</string>
+    <string name="player_info_nationality"><b>Nacionalnost:</b> %1$s</string>
+    <string name="player_info_market_value"><b>Position:</b> %1$s</string>
+    <string name="player_info_contract_until"  ><b>Ugovor do :</b> %1$s</string>
+    <string name="option_sort">Sortiranje</string>
+    <string name="option_share">Podeli</string>
+    <string name="option_settings">Podesavanja</string>
+    <string name="option_score_table">Tabela poena</string>
+    <string name="option_notify">Obavestenje</string>
+    <string name="option_current">Danasnje utakmice</string>
+    <string name="option_about">Informacije</string>
+    <string name="notification_fixture_title">Pocinje %1$s</string>
+    <string name="notification_fixture_ticker">Utakmica ce uskoro poceti</string>
+    <string name="notification_fixture_text">%1$s vs %2$s</string>
+    <string name="leagues_title">Lige</string>
+    <string name="fixture_info_head2head">Uporedna statistika</string>
+    <string name="fixture_info_title">Detalji</string>
+    <string name="fixtures_list_item_header_today">Danas</string>
+    <string name="fixtures_list_item_header_tomorrow">Sutra</string>
+    <string name="fixtures_matchday">Danasnje utakmice %1$d</string>
+    <string name="fixtures_list_item_result" >%1$d : %2$d</string>
+    <string name="intro_next">Sledece</string>
+    <string name="context_fixture_notification">Obavestenje</string>
+    <string name="context_fixture_head">Izaberi akciju</string>
+    <string name="context_head_select_matchday">Izaberi danasnju utakmicu</string>
+    <string name="about_entry">Zdravo. Ova aplikacija koristi <b>Open football API</b></string>
+    <string name="about_links">Link do Linkedin profila. Aleksandar Ilic</string>
+    <string name="about_title">Info</string>
+    <string name="dialog_exit_negative">Ne</string>
+    <string name="dialog_exit_positive">Da</string>
+    <string name="dialog_exit_title">Da li zelite da izadjete?</string>
+    <string name="empty_content_text">Nista za prikaz</string>
+    <string name="error_content_text">Desila se greska.</string>
 </resources>
