@@ -30,7 +30,7 @@
     <string name="fixture_info_title">Detalji</string>
     <string name="fixtures_list_item_header_today">Danas</string>
     <string name="fixtures_list_item_header_tomorrow">Sutra</string>
-    <string name="fixtures_matchday">Danasnje utakmice %1$d</string>
+    <string name="fixtures_matchday">Kolo %1$d</string>
     <string name="fixtures_list_item_result" >%1$d : %2$d</string>
     <string name="intro_next">Sledece</string>
     <string name="context_fixture_notification">Obavestenje</string>
