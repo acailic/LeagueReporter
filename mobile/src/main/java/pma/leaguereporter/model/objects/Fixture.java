@@ -186,7 +186,7 @@ public class Fixture implements Parcelable {
 				fixture.mGoalsAwayTeam = result.optInt("goalsAwayTeam", -1);
 				//
 				/*
-				FIXME: 17.04.2016 it my fix to this API
+				FIXME: API PROBLEM WITH STATUS OF THE GAME.
 				 */
 				if (fixture.mGoalsHomeTeam >= 0 && fixture.getGoalsAwayTeam() >= 0) {
 					fixture.mStatus = FINISHED;
