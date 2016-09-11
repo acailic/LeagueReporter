@@ -51,15 +51,6 @@
 	<color name="button_text">@color/primary</color>
 	<color name="button_pressed">#999</color>
 
-	<color name="intro_title">#FFF</color>
-	<color name="intro_subtitle">#E0E0E0</color>
-	<color name="intro_button">#FFF</color>
-	<color name="intro_indicator_selected">#FFF</color>
-	<color name="intro_indicator_unselected">#BDBDBD</color>
-	<color name="intro_page1">#607D8B</color>
-	<color name="intro_page2">#1565C0</color>
-	<color name="intro_page3">@color/primary_dark</color>
-
 	<color name="window_background">#F5F5F5</color>
 	<color name="window_background_pressed">#E0E0E0</color>
 </resources>
