@@ -1,7 +1,17 @@
 # League Reporter
 Android app for University
 
+
+![alt tag](https://github.com/acailic/LeagueReporter/blob/master/Demo_and_spec/leg_reporter.png)
+
+
+
+
+![alt tag](https://github.com/acailic/LeagueReporter/blob/master/Demo_and_spec/scre_repo_leg.png)
+
 here is the pdf on serbian : https://github.com/acailic/LeagueReporter/blob/master/Demo_and_spec/Programiranje%20mobilnih%20aplikacija%202016.pdf
+ 
+ 
  
 An android app for browsing information from major European football leagues.
 EUROPEAN LEAGUES FOOTBALL INFORMATION, BOOKIE ASSISTANT 
